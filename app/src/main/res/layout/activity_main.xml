@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackColor"
+    tools:context="ltd.leotech.customizedbuttons.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+        <ltd.leotech.customizedbuttons.CustomButton
+            android:textColor="@color/primary_blue"
+            android:text="BLUE"
+            android:layout_margin="4dp"
+            android:background="@drawable/blue_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <ltd.leotech.customizedbuttons.CustomButton
+            android:textColor="@color/primary_light_blue"
+            android:text="LIGHT BLUE"
+            android:layout_margin="4dp"
+            android:background="@drawable/light_blue_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ltd.leotech.customizedbuttons.CustomButton
+            android:textColor="@color/primary_light_green"
+            android:text="LIGHT GREEN"
+            android:layout_margin="4dp"
+            android:background="@drawable/light_green_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ltd.leotech.customizedbuttons.CustomButton
+            android:textColor="@color/primary_green"
+            android:text="GREEN"
+            android:layout_margin="4dp"
+            android:background="@drawable/green_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ltd.leotech.customizedbuttons.CustomButton
+            android:textColor="@color/primary_yellow"
+            android:text="YELLOW"
+            android:layout_margin="4dp"
+            android:background="@drawable/yellow_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ltd.leotech.customizedbuttons.CustomButton
+            android:textColor="@color/primary_orange"
+            android:text="ORANGE"
+            android:layout_margin="4dp"
+            android:background="@drawable/orange_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ltd.leotech.customizedbuttons.CustomButton
+            android:textColor="@color/primary_red"
+            android:text="RED"
+            android:layout_margin="4dp"
+            android:background="@drawable/red_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
